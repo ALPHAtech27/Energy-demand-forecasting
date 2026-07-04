@@ -1,0 +1,8 @@
+Peak demand consistently occurs around 19:00 daily -- schedule maintenance and demand-response programs outside this window.
+Month 1 has the highest seasonal average demand -- pre-position reserve generation capacity and grid maintenance windows accordingly.
+Weekday demand (avg 3384 MW) exceeds weekend demand (avg 3147 MW) by 237 MW -- weekend maintenance windows carry lower supply risk.
+Solar generation averages 165 MW in summer months vs 34 MW in winter -- winter months need 132 MW more from non-solar sources.
+Year-over-year demand has grown 2.8% from the first to the most recent year in the dataset, indicating capacity planning should account for continued organic growth.
+The SARIMA model forecasts an average demand of 4353 MW over the next 30 days, with a peak of 4540 MW.
+17 of the next 30 forecasted days exceed the historical 95th-percentile demand threshold (4347 MW) -- these are high-risk days for grid strain and should be flagged for operations teams.
+Forecast accuracy: the SARIMA model achieves a MAPE of 2.652% on held-out test data, which is strong for operational day-ahead planning purposes.
